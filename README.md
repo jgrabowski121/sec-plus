@@ -65,19 +65,38 @@ SY0-601, Objective 5.2 - Security Frameworks
 ##### SY0-601, Objective 3.2 - Application Hardening  
 * SED - Self Encrypting Drive  
 
-SY0-601, Objective 3.5 - Mobile Device Management  
-
-SY0-601, Objective 3.8 - Access Control  
+##### SY0-601, Objective 3.5 - Mobile Device Management  
+* MDM - Mobile Device Management
+  
+##### SY0-601, Objective 3.8 - Access Control  
+* TOTP - Time based One Time Passwords
+* DAC (Discretionary Access Control) is used in many operating systems, and this model allows the owner of the resource to control who has access.
+* MAC (Mandatory Access Control) allows access based on the security level assigned to an object. Only users with the object’s assigned security level or higher may access the resource.
+* ABAC (Attribute-based Access Control) combines many different parameters to determine if a user has access to a resource.
+* RBAC (Role-based Access Control) assigns rights and permissions based on the role of a user. These roles are usually assigned by group.
+  
 SY0-601, Objective 2.1 - Honeypots and Deception  
 SY0-601, Objective 4.3 - Log Files  
-SY0-601, Objective 3.2 - Boot Integrity  
+##### SY0-601, Objective 3.2 - Boot Integrity  
+* Trusted Boot - The Trusted Boot portion of the startup process verifies the operating system kernel signature and starts the ELAM (Early Launch Anti-Malware) process.
+* Measured Boot - Measured Boot occurs after the Trusted Boot process and verifies that nothing on the computer has been changed by malicious software or other processes.
+* Secure Boot - Secure Boot is a UEFI BIOS boot feature that checks the digital signature of the bootloader. The Trusted Boot process occurs after Secure Boot has completed.
+* POST - POST (Power-On Self-Test) is a hardware check performed prior to booting an operating system.
+
+
 SY0-601, Objective 3.5 - Mobile Deployment Models  
 SY0-601, Objective 5.1 - Security Controls  
 SY0-601, Objective 2.3 - Secure Deployments  
 SY0-601, Objective 5.3 - Personnel Security  
 SY0-601, Objective 4.1 - Reconnaissance Tools Part 1  
 SY0-601, Objective 3.9 - Certificate Concepts    
-SY0-601, Objective 5.5 - Data Roles and Responsibilities   
+
+##### SY0-601, Objective 5.5 - Data Roles and Responsibilities  
+* Data custodian - The data custodian manages access rights and sets security controls to the data.  
+* Data processor - The data processor manages the operational use of the data, but not the rights and permissions to the information.  
+* Data owner - The data owner is usually a higher-level  executive who makes business decisions regarding the data.  
+* Privacy officer - A privacy officer sets privacy policies and implements privacy processes and procedures.   
+
 SY0-601, Objective 3.3 - Other Network Appliances  
 SY0-601, Objective 5.4 - Risk Analysis  
 SY0-601, Objective 3.1 - Secure Protocols  
