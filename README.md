@@ -97,7 +97,23 @@ SY0-601, Objective 3.9 - Certificate Concepts
 * Data owner - The data owner is usually a higher-level  executive who makes business decisions regarding the data.  
 * Privacy officer - A privacy officer sets privacy policies and implements privacy processes and procedures.   
 
-SY0-601, Objective 3.3 - Other Network Appliances  
-SY0-601, Objective 5.4 - Risk Analysis  
+##### SY0-601, Objective 3.3 - Other Network Appliances  
+* HSM (Hardware Security Module)
+  * High-end cryptographic hardware appliance that can securely store keys and certificates for all devices.
+##### SY0-601, Objective 5.4 - Risk Analysis
+* Likelihood - Annualized rate of Occurrence (ARO)
+* SLE (Single Loss Expectancy)
+* ALE (Annualized Loss Expectancy)
+  * ARO x SLE
+* RTO (Recovery Time Objective)
+  * How long it can be down 
+* RPO (Recovery Point Objective)
+  * Acceptible data loss
+* MTTR (Mean time to Repair)
+  * Time required to fix the issue
+* MTBF (Mean time Between Failures)
+  * Predict the time between outages
+   
+
 SY0-601, Objective 3.1 - Secure Protocols  
 SY0-601, Objective 1.8 - Penetration Testing  
