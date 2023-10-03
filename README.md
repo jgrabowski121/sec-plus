@@ -113,6 +113,17 @@ SY0-601, Objective 3.9 - Certificate Concepts
   * Time required to fix the issue
 * MTBF (Mean time Between Failures)
   * Predict the time between outages
+
+OAuth - Designed to faciliate sharing of information within a user profile between sites  
+OpenID Connecxt (OIDC) - Explicitly designed to authorize claims and not to authenticate users    
+
+
+
+
+
+
+
+
    
 
 SY0-601, Objective 3.1 - Secure Protocols  
